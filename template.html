@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <style>
+
+
+
+     .container{
+
+        height: 500vh;
+        width:100%;
+        border: 2px solid white;
+        
+     }
+
+     .navbar{
+    height: 1.7%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid white
+
+}
+
+    .logo{
+
+        margin-left: 15px;
+    }
+
+    .logospan{
+        font-weight: 900;
+      
+    
+}
+
+.navbar a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin:  10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+    margin: 0 15px;
+}
+
+.navbar a:hover{
+    padding: 5px;
+    background-color: grey;
+}
+
+    .img{
+    width: 99%;
+    margin: auto;
+    height: 22%;
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img h3{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 45%; 
+    font-weight: 700;
+    z-index: 99;
+
+}
+.img span{
+    color: black;
+    font-weight: 900;
+}
+.box h3{
+    font-size: 16px;
+    padding: 10px 13px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.box{
+     border-radius:2px solid black;
+     background-image: url('https://www.w3schools.com/w3images/house5.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 45%;
+     width: 24%;
+}
+
+.project{
+    height: 16%;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.About{
+
+ height: 10%;
+ width: 76%;
+ border: 1px solid black ;
+
+}
+
+.Aboutbox1{
+    height: 30%;
+    border: 1px solid black;
+}
+
+.Aboutbox1 p{
+
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+.Aboutbox2{
+    height: 62%;
+    border: 1px solid black;
+    display: flex;
+    font-family: Verdana,sans-serif;
+    
+}
+
+.minibox{
+
+    height: 99.8%;
+    width: 20%;
+    border: 1px solid black;
+    margin: auto;
+    
+}
+
+.innerbox1{
+ height: 50%;
+ width: 100%;
+  border: 1px solid blue
+}
+
+.innerbox2{
+   
+    height: 39%;
+    border: 1px solid red;
+
+
+}
+
+.innerbox3{
+      height: 10%;
+      border: 1px solid green;
+
+
+}
+.innerbox2 h2{
+
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.innerbox2 h3{
+
+    opacity: 0.60;
+    font-size: 15px;
+    line-height: 1.5;
+    color: grey;
+    
+
+}
+
+.innerbox2 p{
+
+    display: block;
+}
+
+.innerbox3 button{
+
+    padding: 9px 105.8px;
+    cursor: pointer;
+    font-family: Verdana,sans-serif;
+    font: inherit;
+    margin: 0;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><span>B R</span>  Architects </a>  
+            </div>
+            <div class="menu"></div>
+            <div class="menu">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="img">
+            <h3><span>&nbsp;B R </span>&nbsp;Architects</h3>
+        </div>
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="box" id="box-1">
+                <h3>Summer House</h3>
+            </div>
+            <div class="box" id="box-2">
+                <h3>Brick House</h3>
+            </div>
+            <div class="box" id="box-3">
+                <h3>Renovated</h3>
+            </div>
+            <div class="box" id="box-4">
+                <h3>Barn House</h3>
+            </div>
+            <div class="box" id="box-5">
+                <h3>Summer House</h3>
+            </div>
+            <div class="box" id="box-6">
+                <h3>Brick House</h3>
+            </div>
+            <div class="box" id="box-7">
+                <h3>Renovated</h3>
+            </div>
+            <div class="box" id="box-8">
+                <h3>Barn House</h3>
+            </div>
+        </div>
+
+        <h2>About</h2>
+        <div class="About">
+            <div class="Aboutbox1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="Aboutbox2">
+                <div class="minibox">
+                    <div class="innerbox1">
+                        <img src="https://www.w3schools.com/w3images/team2.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Jhon Doe</h2>
+                        <h3>CEO & Founder</h3>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
+                    </div>
+                    <div class="innerbox3">
+                        <button>Contact</button>
+                    </div>
+                </div>
+                <div class="minibox">
+                    <div class="innerbox1">
+                        <img src="https://www.w3schools.com/w3images/team1.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Jane Doe</h2>
+                        <h3>Architect</h3>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    </div>
+                    <div class="innerbox3">
+                        <button>Contact</button>
+                    </div>
+                </div>
+                <div class="minibox">
+                    <div class="innerbox1">
+                        <img src="https://www.w3schools.com/w3images/team3.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Mike Ross</h2>
+                        <h3>Architect</h3>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    </div>
+                    <div class="innerbox3">
+                        <button>Contact</button>
+                    </div>
+                </div>
+                <div class="minibox">
+                    <div class="innerbox1">
+                       <img src="https://www.w3schools.com/w3images/team4.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="innerbox2">
+                        <h2>Dan Star</h2>
+                        <h3>Architect</h3>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    </div>
+                    <div class="innerbox3">
+                        <button>Contact</button>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+
+    </div>
+    
+</body>
+</html>
